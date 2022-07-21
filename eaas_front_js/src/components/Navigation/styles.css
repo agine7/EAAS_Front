@@ -1,0 +1,36 @@
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-bar {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: black;
+}
+
+
+.nav-link {
+    color: black;
+    border-radius: 4px;
+    background-color:white;
+    border:none;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 3px #999;
+}
+.nav-link:hover {
+    background-color: white;
+}
+.nav-link:active {
+  background-color: white;
+  box-shadow: 0 8px #666;
+  transform: translateY(3px);
+}
